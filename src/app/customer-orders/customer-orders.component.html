@@ -1,0 +1,18 @@
+<!-- <a align="right" routerLink="/back">back</a>
+<router-outlet></router-outlet> -->
+<h3>Customer Orders</h3>
+<p>Orders for {{customer.firstname}}</p>
+<div>
+  <div>
+    <label><b>Name: </b></label> {{customer.firstname}} {{customer.lastname}}
+  </div>
+  
+  
+  <div>
+    <label><b>Orders: </b></label> {{customer.orders}}
+  </div>
+
+  <div>
+    <label><b>OrderTotal:</b> $</label>{{customer.ordertotal}}
+  </div>
+</div>
