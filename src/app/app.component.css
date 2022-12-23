@@ -40,7 +40,7 @@ h4{
     color: rgba(97, 95, 95, 0.829);
 }  
 body{
-    background: url('/assets/background.jpg');
+    background-image: url('/assets/background.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
